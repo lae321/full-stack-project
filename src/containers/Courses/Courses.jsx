@@ -4,7 +4,6 @@ import Course from "../../components/Course/Course";
 import coursesData from "../../data/courses";
 
 const Courses = () => {
-
   const courseCards = coursesData.map(course => {
     return (
       <Course
@@ -15,14 +14,13 @@ const Courses = () => {
         price={course.price}
         summary={course.summary}
       />
-    )
-  })
+    );
+  });
 
   return (
     <div className="coursesOuterContainer">
-      <h3>Courses...</h3>
+      <h2>Courses...</h2>
       <div className="coursesInnerContainer">{courseCards}</div>
-      
     </div>
   );
 };
