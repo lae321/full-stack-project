@@ -1,12 +1,30 @@
-import React from 'react'
-import "./Courses.scss"
+import React from "react";
+import "./Courses.scss";
+import Course from "../../components/Course/Course";
+import coursesData from "../../data/courses";
 
 const Courses = () => {
-  return (
-    <div className="coursesContainer">
-      <h3>Courses...</h3>
-    </div>
-  )
-}
 
-export default Courses
+  const courseCards = coursesData.map(course => {
+    return (
+      <Course
+        img={course.imgSrc}
+        name={course.name}
+        location={course.location}
+        duration={course.duration}
+        price={course.price}
+        summary={course.summary}
+      />
+    )
+  })
+
+  return (
+    <div className="coursesOuterContainer">
+      <h3>Courses...</h3>
+      <div className="coursesInnerContainer">{courseCards}</div>
+      
+    </div>
+  );
+};
+
+export default Courses;
