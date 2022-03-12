@@ -2,8 +2,12 @@ import React from "react";
 import "./Courses.scss";
 import Course from "../../components/Course/Course";
 import coursesData from "../../data/courses";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBookOpen } from "@fortawesome/free-solid-svg-icons";
 
 const Courses = () => {
+  const bookIcon = <FontAwesomeIcon icon={faBookOpen} />;
+
   const courseCards = coursesData.map(course => {
     return (
       <Course
@@ -19,7 +23,7 @@ const Courses = () => {
 
   return (
     <div className="coursesOuterContainer">
-      <h2>Courses...</h2>
+      <h2>{bookIcon} Courses...</h2>
       <div className="coursesInnerContainer">{courseCards}</div>
     </div>
   );
