@@ -43,7 +43,7 @@ const CourseInfo = () => {
       </div>
 
       <Link to="/">
-        <button className="btn" >Home</button >
+        <button className="btn">Home</button>
       </Link>
     </div>
   );

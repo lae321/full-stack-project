@@ -22,19 +22,18 @@ function App() {
 
   useEffect(() => {
     coursesData();
-  },[]);
+  }, []);
 
   return (
     <Router>
-    <div>
-      <Nav toggleAddCourse={toggleAddCourse}/>
-      <Routes>
-        {/* <Route path="/" element={} /> */}
-        <Route path="/" element={<Main coursesData={courses}/>} />
-        <Route path="/course/:courseId" element={<CourseInfo />} />
-      </Routes>
-      {showAddCourse && <AddCourse toggleAddCourse={toggleAddCourse}/>}
-    </div>
+      <div>
+        <Nav toggleAddCourse={toggleAddCourse} />
+        <Routes>
+          <Route path="/" element={<Main coursesData={courses} />} />
+          <Route path="/course/:courseId" element={<CourseInfo />} />
+        </Routes>
+        {showAddCourse && <AddCourse toggleAddCourse={toggleAddCourse} />}
+      </div>
     </Router>
   );
 }

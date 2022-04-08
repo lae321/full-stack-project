@@ -1,5 +1,4 @@
 import React from "react";
-// import CourseModal from "../CourseModal/CourseModal";
 import "./Course.scss";
 
 const Course = props => {
@@ -32,10 +31,8 @@ const Course = props => {
           <img className="courseImg" src={img} alt={name} />
           <h4 className="courseName">{name}</h4>
         </div>
-
         <div className="backgroundBox"></div>
       </div>
-        {/* {toggleCourseDetails ? <CourseModal object = {activeObject} /> : null} */}
     </div>
   );
 };

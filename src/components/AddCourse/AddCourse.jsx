@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import "./AddCourse.scss";
 
-const AddCourse = (props) => {
-
-  const {toggleAddCourse}  = props;
+const AddCourse = props => {
+  const { toggleAddCourse } = props;
 
   const [course, setCourse] = useState({
     name: "",

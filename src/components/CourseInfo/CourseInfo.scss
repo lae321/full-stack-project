@@ -47,6 +47,7 @@
   box-shadow: inset 0px 1px 0px fadeout(white, 80%);
   &:hover {
     background: lighten(rgb(0, 83, 214), 5%);
+    cursor: pointer;
   }
   &:active {
     background: rgb(0, 83, 214);

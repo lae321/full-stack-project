@@ -3,9 +3,8 @@ import Search from "../components/Search/Search";
 import Courses from "./Courses/Courses";
 import "./Main.scss";
 
-const Main = (props) => {
-
-const {coursesData} = props
+const Main = props => {
+  const { coursesData } = props;
 
   return (
     <div className="mainContainer">
