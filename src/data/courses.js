@@ -1,5 +1,6 @@
 const courses = [
   {
+    id: 1,
     name: "Fly Fishing 101",
     location: "London",
     price: "£450",
@@ -8,7 +9,8 @@ const courses = [
       "We will teach you the best techniques for catching mutant river beasts from the Thames",
     imgSrc: "https://image.api.playstation.com/vulcan/ap/rnd/202009/1513/1SzCPUj3L9cZqxgmprMCjPqc.jpg"
   },
-  {
+  { 
+    id: 2,
     name: "Second Aid",
     location: "Luton",
     price: "£4500",
@@ -18,6 +20,7 @@ const courses = [
     imgSrc: "https://www.trainingexpress.org.uk/wp-content/uploads/2020/10/First-Aid.jpg",
   },
   {
+    id: 3,
     name: "Quantum Mechanics for Dummies",
     location: "Royal Science Institute of Science Studies",
     price: "Free",
