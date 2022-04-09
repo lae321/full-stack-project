@@ -1,4 +1,4 @@
-# Courseology full-stack project
+# Courseology Full-Stack Project
 
 This was the final individual project I completed as part of the _nology 12-week Software Engineering course. The aim was to create a full-stack web app for a fictional company called Courseology which essentially contains a directory of various courses, from Fly Fishing 101, to Quantum Mechanics for Dummies.
 
