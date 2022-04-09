@@ -7,7 +7,6 @@ The frontend is built with React, while the backend API is built with Java. The 
 I found this project very satisfying as it tested all of the skills I had learnt across the course. While the scope of the project is quite small, I encountered a number of challenges a long the way which I enjoyed overcoming. Please see some screen shots of the project below.
 
 ## Screenshots
-<br>
 
 ### Courseology landing page
 <img src="readme-pics\landing.png" width="1200px">
