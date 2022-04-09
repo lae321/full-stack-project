@@ -1,71 +1,23 @@
-# Getting Started with Create React App
+# Courseology full-stack project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This was the final individual project I completed as part of the _nology 12-week Software Engineering course. The aim was to create a full-stack web app for a fictional company called Courseology which essentially contains a directory of various courses, from Fly Fishing 101, to Quantum Mechanics for Dummies.
 
-## Available Scripts
+The frontend is built with React, while the backend API is built with Java. The details of the individual courses are stored on a Google Cloud Platform-hosted MySQL database. You can view further details of a particular course by clicking on its thumbnail. You will then be redirected to a page listing futher details including the courses' price, location and description. Additional courses can be added to the website using the Add a Course feature which utilises a POST request to the the GCP-hosted database.
 
-In the project directory, you can run:
+I found this project very satisfying as it tested all of the skills I had learnt across the course. While the scope of the project is quite small, I encountered a number of challenges a long the way which I enjoyed overcoming. Please see some screen shots of the project below.
 
-### `npm start`
+## Screenshots
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Courseology landing page
+<img src="readme-pics\landing.png" width="1200px">
+<br>
+<br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Course details
+<img src="readme-pics\course.png" width="1200px">
+<br>
+<br>
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# full-stack-project
+### Add a new course
+<img src="readme-pics\addcourse.png" width="1200px">

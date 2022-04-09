@@ -1,0 +1,71 @@
+.courseContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.courseContainer .box {
+  position: relative;
+  width: 320px;
+}
+
+.courseBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  padding: 10px 10px;
+  z-index: 2;
+  transition: all 0.3s ease-in-out;
+  border: #00000007 solid 2px;
+}
+
+.courseOrange {
+  background-color: rgb(255, 234, 204);
+}
+
+.courseBlue {
+  background-color: rgb(212, 255, 237);
+}
+
+.coursePink {
+  background-color: rgb(255, 230, 240);
+}
+
+.courseContainer .box:hover .courseBox {
+  transform: translate(-5px, -5px);
+  cursor: pointer;
+}
+
+.courseContainer .box:hover .backgroundBox {
+  transform: translate(5px, 5px);
+}
+
+.courseImg {
+  width: 290px;
+  height: 170px;
+}
+
+.courseName {
+  color: black;
+  text-align: left;
+  padding: 5px 0px 0px 5px;
+  font-size: 18px;
+}
+
+.backgroundBox {
+  width: 310px;
+  z-index: 1;
+  height: 222px;
+  transition: 0.3s ease-in-out;
+  opacity: 0.5;
+  background-size: 7px 7px;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #000000 0,
+    #000000 1px,
+    rgb(240, 245, 245) 0,
+    rgb(240, 245, 245) 50%
+  );
+}

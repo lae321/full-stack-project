@@ -1,0 +1,59 @@
+.courseInfoContainer {
+  padding-top: 14vh;
+
+  .courseInfo {
+    margin: 0 auto;
+    background-color: rgb(255, 234, 204);
+    width: 40%;
+
+    &__img {
+      width: 600px;
+      padding: 20px 20px 0 20px;
+    }
+
+    &__info {
+      margin: 20px 30px;
+      padding-bottom: 20px;
+    }
+
+    &__split {
+      display: grid;
+      grid-template-columns: 0.9fr 2fr;
+      column-gap: 20px;
+    }
+
+    &__header {
+      text-align: left;
+      margin-bottom: 17px;
+    }
+
+    &__content {
+      text-align: left;
+      font-weight: 500;
+      font-size: 16px;
+    }
+  }
+}
+
+.btn {
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-family: Quicksand;
+  width: 150px;
+  height: 40px;
+  background: rgb(0, 83, 214);
+  border: none;
+  color: white;
+  box-shadow: inset 0px 1px 0px fadeout(white, 80%);
+  &:hover {
+    background: lighten(rgb(0, 83, 214), 5%);
+    cursor: pointer;
+  }
+  &:active {
+    background: rgb(0, 83, 214);
+    box-shadow: inset 0px 1px 1px fadeout(black, 90%);
+  }
+  &:focus {
+    outline: none;
+  }
+}
