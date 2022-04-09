@@ -11,11 +11,9 @@ I found this project very satisfying as it tested all of the skills I had learnt
 ### Courseology landing page
 <img src="readme-pics\landing.png" width="1200px">
 <br>
-<br>
 
 ### Course details
 <img src="readme-pics\course.png" width="1200px">
-<br>
 <br>
 
 ### Add a new course
